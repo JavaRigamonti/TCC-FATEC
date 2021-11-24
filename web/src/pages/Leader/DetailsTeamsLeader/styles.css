@@ -1,0 +1,79 @@
+.detailedTeam {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.teamInfo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.teamInfo p {
+  margin-right: 15px;
+  line-height: 28px;
+  color: #898989; 
+}
+
+
+.button-config-time {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-config-time:hover {
+  transform: scale(0.96);
+  opacity: 0.9;
+}
+
+.container-cards h1 {
+  color: #737ff3;
+  font-size: 30px;
+  align-self: flex-start;
+}
+
+
+.cards-area {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-report {
+  display: flex;
+  align-items: center;
+}
+
+.colab-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,13 @@
+.container-component {
+  background-color: #F8F8F8;
+  width: calc(100% - 130px);
+  margin: 0 0 0 auto;
+  overflow: hidden;
+  padding-top: 90px;
+}
+
+.container-margin {
+   max-width: 1096px;
+   width: 100%;
+   margin: auto;
+}

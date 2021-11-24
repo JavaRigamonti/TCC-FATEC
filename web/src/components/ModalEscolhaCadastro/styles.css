@@ -1,0 +1,110 @@
+.title-container{
+  display:flex;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-choice{
+  font-size: 20px;
+  font-weight: bold;
+  color: #505050;
+}
+
+.subtitle-choice {
+  
+  margin: 15px 0 35px !important;
+}
+
+.containerOptions {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOptions>div{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  max-height: 110px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.containerOptions>div.selected{
+  border: 2px dashed #737FF3;
+}
+
+.description {
+  margin-left: 20px;
+  padding: 8px;
+}
+
+.description h3{
+  font-size: 17px;
+  color: #737FF3;
+}
+
+.description p{
+  font-size: 14px;
+  color: #9D9D9D;
+  margin-top: 5px;
+}
+
+.containerRight-escolha {
+  width: 460px;
+  max-width: 460px;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  position: relative;
+  background-color: #737FF3;
+  padding: 40px 50px;
+}
+
+.containerRight-escolha img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+}
+
+.containerRight-escolha>button{
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  z-index: 1;
+  text-decoration: none;
+  color: #737FF3;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#btnContinue{
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background:#737FF3;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px !important;
+}
+
+/* .botaoEscolha {
+  margin-top: 30px !important;
+} */

@@ -1,0 +1,93 @@
+.container-aside {
+  width: 130px;
+  height: 100vh;
+  position: fixed;
+  background: #f8f8f8;
+}
+
+.menuLateral {
+  position: fixed;
+  width: 130px;
+  height: 100vh;
+  left: 0px;
+  top: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+  background: #737ff3;
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 50px 0px 0px;
+}
+
+.btnMenuLateral:first-child {
+  margin-top: 50px;
+}
+
+.btnMenuLateral {
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  transition: all 0.2s;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.iconMenuLateral {
+  width: 25px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.btnMenuLateral:hover {
+  background-color: #fff;
+  color: #737ff3;
+}
+
+.btnMenuLateral:hover .iconMenuLateral {
+  color: #737ff3;
+}
+
+.active {
+  background-color: #fff;
+  color: #737ff3;
+}
+
+.active .iconMenuLateral {
+  color: #737ff3;
+}
+
+.logoff-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: calc(100vh - 82%);
+  transition: all 0.2s;
+  outline: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.logoff-button span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-left: 5px;
+}
+
+.logoff-button:hover {
+  transform: scale(0.94);
+}

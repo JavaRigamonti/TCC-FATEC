@@ -1,0 +1,72 @@
+.component-card-daily-container{
+  position: relative;
+  width: 350px;
+  height: 215px;
+  margin: 10px 15px 10px 0px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.component-card-daily-container:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.component-board-daily {
+  text-decoration: none;
+  width: 350px;
+  height: 215px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  padding: 25px;
+  cursor: pointer;
+}
+
+
+.board-daily-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.board-daily-header h3 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #737ff3;
+}
+
+.board-daily-body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.board-register-daily {
+  margin-bottom: 10px;
+}
+
+.board-register-daily p:first-child {
+  font-size: 15px;
+  color: #898989;
+}
+
+.board-register-daily p:last-child {
+  font-size: 18px;
+  color: #595959;
+  margin-top: 5px;
+}
+
+.board-daily-trash-button {
+  display:flex;
+  z-index: 2;
+  position: absolute;
+  bottom: 34px;
+  right: 21px;
+  cursor:pointer;
+}
+
+.board-daily-trash-button svg:hover {
+  color: #dc3545 !important;
+}

@@ -1,0 +1,67 @@
+.dashboardLider {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cards h1 {
+  color: #737ff3;
+  font-size: 30px;
+  align-self: flex-start;
+}
+
+.cards-area {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-report {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.colab-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1300px) {
+  .burndown-area {
+    margin-left: 20px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .container-report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .report {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .burndown-area {
+    width: 95%;
+  }
+
+  .graph-description {
+    font-size: 15px;
+    padding: 0;
+  }
+}

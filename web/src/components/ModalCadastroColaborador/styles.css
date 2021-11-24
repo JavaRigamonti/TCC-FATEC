@@ -1,0 +1,123 @@
+.email{
+  font-size: 14px;
+  font-weight: bold;
+  transition: box-shadow 0.3s;
+}
+
+.email>input{
+  margin: 5px 0 15px;
+  border: 2px solid #ccc;
+  padding: 10px ;
+  border-radius:4px;
+  width: 100%;
+  font-size: 1.06em;
+}
+
+.email>input:focus{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nomeEmpresa{
+  font-size: 14px;
+  font-weight: bold;
+  transition: box-shadow 0.3s;
+}
+
+.nomeEmpresa>input{
+  margin: 5px 0 15px;
+  border: 2px solid #ccc;
+  padding: 10px ;
+  border-radius:4px;
+  width: 100%;
+  font-size: 1.06em;
+}
+
+.nomeEmpresa>input:focus{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.senha{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+
+.senha>input{
+  margin: 5px 0 15px;
+  border: 2px solid #ccc;
+  padding: 10px ;
+  border-radius:4px;
+  width: 100%;
+  font-size: 1.06em;
+  display: flex;
+  flex-direction: row;
+  transition: box-shadow 0.3s;
+}
+
+.senha>input:focus{
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.iconOlho{
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  height: 20px;
+  width: auto;
+  bottom: 45px;
+  right: 10px;
+  top: 34px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline-color: #737FF3;
+}
+
+
+.checkBox {
+  color: #505050;
+  font-weight: normal;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkBox>div{
+  display: flex;
+  align-items: center;
+}
+
+.checkBox>div>label>a {
+  text-decoration: none;
+  color: #737FF3;
+}
+
+#manterConec{
+  margin-right: 5px;
+}
+
+#esqSenha{
+  display: flex;
+  align-self: flex-end;
+  color: #737FF3;
+  text-decoration: none;
+}
+
+#btnContinue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  background:#737FF3;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}

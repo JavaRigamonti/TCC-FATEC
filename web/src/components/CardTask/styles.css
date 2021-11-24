@@ -1,0 +1,81 @@
+.component-card-task-container {
+  width: 350px;
+  height: 215px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.component-card-task-container:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.card-tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 350px;
+  height: 215px;
+  padding: 20px 25px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card-information-tarefa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.card-title-tarefa {
+  color: #737ff3;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-textdate-tarefa {
+  color: #898989;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.card-information-tarefa p:last-child strong {
+  color: #595959;
+  font-size: 18px;
+}
+
+.task-dates {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.task-creation-date,
+.task-expiration-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-expiration-date {
+  margin-top: 20px;
+}
+
+.card-task-trash-button {
+  display: flex;
+  z-index: 2;
+  position: absolute;
+  bottom: 34px;
+  right: 21px;
+  cursor: pointer;
+}
+
+.card-task-trash-button svg:hover {
+  color: #dc3545 !important;
+}

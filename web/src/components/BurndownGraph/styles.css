@@ -1,0 +1,34 @@
+.burndown-area{
+  width: 100%;
+  height: 340px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 30px 0 40px;
+}
+
+.burndown-graph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.burndown-tooltip {
+  position: absolute;
+  top: 6px;
+  left: 206px;
+}
+
+.apexcharts-menu-icon {
+  position: absolute;
+  right:35px;
+  top:0;
+}
+
